@@ -6,19 +6,19 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
         autoIncrement: false,
-        primaryKey: true,
+        primaryKey: true
       },
       company_name: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
       },
       unit_price: {
         type: Sequelize.FLOAT,
-        allowNull: false,
+        allowNull: false
       },
       volume: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,

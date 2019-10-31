@@ -18,11 +18,11 @@ module.exports = {
       },
       date: {
         type: Sequelize.DATEONLY,
-        allowNull: false,
+        allowNull: false
       },
       unit_price: {
         type: Sequelize.FLOAT,
-        allowNull: false,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,
