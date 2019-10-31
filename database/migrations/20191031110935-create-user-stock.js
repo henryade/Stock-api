@@ -26,7 +26,7 @@ module.exports = {
       },
       number_of_units: {
         type: Sequelize.FLOAT,
-        allowNull: false,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,
